@@ -28,8 +28,13 @@ function App() {
   const handleAdded = (courseTitle, creditHour) => {
     const newAdded = [...added, courseTitle];
     const newCredit = credit + creditHour;
-    setAdded(newAdded);
-    setCredit(newCredit);
+    if (newCredit <= 20) {
+      setAdded(newAdded);
+      setCredit(newCredit);
+    }
+    else {
+      alert('Not enough credits!')
+    }
   }
 
 

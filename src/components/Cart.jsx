@@ -1,10 +1,11 @@
 import PropTypes from 'prop-types';
 
 const Cart = ({added, credit}) => {
+    const remainingHour = 20 - credit;
     return (
         <div className="md:w-1/4">
             <div className="bg-white w-80 rounded-xl mt-10 px-4">
-                <h1 className="py-4 font-semibold text-blue-500">Credit Hour Remaining: $ hr</h1>
+                <h1 className="py-4 font-semibold text-blue-500">Credit Hour Remaining: {remainingHour} hr</h1>
                 <hr />
                 <h1 className="py-3 font-bold text-lg">Course Name:</h1>
                 <ul className='pb-2'>
@@ -14,6 +15,7 @@ const Cart = ({added, credit}) => {
                 </ul>
                 <hr />
                 <h1 className="text-sm text-gray-500 py-4">Total Credit Hour: {credit} hr</h1>
+                <button className='hover:bg-blue-500 bg-gray-200 hover:text-white w-full rounded-md mb-2 py-1'>Clear</button>
             </div>
         </div>
     );

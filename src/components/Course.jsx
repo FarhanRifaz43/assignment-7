@@ -15,7 +15,7 @@ const Course = ({ course, handleAdded }) => {
                     <h1 className='text-sm text-gray-600 flex flex-row items-center'><BiBookOpen/>Credit: {credit_hours} hr</h1>
                 </div>
                 <div className='px-3 pb-3'>
-                    <button onClick={() => handleAdded(course_title, credit_hours)} className='bg-blue-500 text-white w-full rounded-md py-1'>Select</button>
+                    <button onClick={() => handleAdded(course_title, credit_hours)} className='hover:bg-blue-500 hover:text-white w-full rounded-md py-1 bg-gray-200'>Select</button>
                 </div>
             </div>
     );
