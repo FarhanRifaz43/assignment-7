@@ -1,0 +1,65 @@
+[
+    {
+      "image": "https://i.ibb.co/T8SNd9T/Rectangle-2-1.png",
+      "course_title": "Python Programming Fundamentals",
+      "credit_hours": 4,
+      "price": 49.99,
+      "course_description": "Learn the basics of Python programming, including variables, data types, and control structures."
+    },
+    {
+      "image": "https://i.ibb.co/CQ5xzc3/Rectangle-2-2.png",
+      "course_title": "Web Development with HTML and CSS",
+      "credit_hours": 6,
+      "price": 79.99,
+      "course_description": "Build modern and responsive websites using HTML and CSS. Includes hands-on projects."
+    },
+    {
+      "image": "https://i.ibb.co/gSrsmbL/Rectangle-2-3.png",
+      "course_title": "JavaScript Mastery",
+      "credit_hours": 5,
+      "price": 64.99,
+      "course_description": "Dive into JavaScript, the language of the web. Covers DOM manipulation and AJAX."
+    },
+    {
+      "image": "https://i.ibb.co/T8ntq5k/Rectangle-2-4.png",
+      "course_title": "Java Programming Advanced Topics",
+      "credit_hours": 7,
+      "price": 89.99,
+      "course_description": "Take your Java skills to the next level with advanced topics like multithreading and design patterns."
+    },
+    {
+      "image": "https://i.ibb.co/8YzYrqY/Rectangle-2-5.png",
+      "course_title": "Data Science with Python",
+      "credit_hours": 8,
+      "price": 99.99,
+      "course_description": "Explore data analysis, visualization, and machine learning using Python libraries."
+    },
+    {
+      "image": "https://i.ibb.co/QrtXfWc/Rectangle-2-6.png",
+      "course_title": "Full-Stack Web Development",
+      "credit_hours": 10,
+      "price": 129.99,
+      "course_description": "Become a full-stack developer by mastering both front-end and back-end technologies."
+    },
+    {
+      "image": "https://i.ibb.co/17v8vrw/Rectangle-2.png",
+      "course_title": "Mobile App Development with React Native",
+      "credit_hours": 6,
+      "price": 74.99,
+      "course_description": "Create cross-platform mobile apps using React Native and JavaScript."
+    },
+    {
+      "image": "https://i.ibb.co/r04TV8r/Rectangle-3-1.png",
+      "course_title": "C++ Programming for Beginners",
+      "credit_hours": 5,
+      "price": 59.99,
+      "course_description": "Start your journey in C++ programming with a focus on syntax and logic."
+    },
+    {
+      "image": "https://i.ibb.co/2SYy84w/Rectangle-3.png",
+      "course_title": "Cybersecurity Essentials",
+      "credit_hours": 7,
+      "price": 89.99,
+      "course_description": "Learn the fundamentals of cybersecurity, including threat analysis and encryption."
+    }
+  ]
