@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-const Cart = ({ added, credit }) => {
+const Cart = ({added, credit}) => {
     return (
         <div className="md:w-1/4">
             <div className="bg-white w-80 rounded-xl mt-10 px-4">
@@ -21,7 +21,8 @@ const Cart = ({ added, credit }) => {
 
 Cart.propTypes = {
     added: PropTypes.array,
-    credit: PropTypes.number
+    credit: PropTypes.number,
+    remainingHour: PropTypes.number
 }
 
 export default Cart;
