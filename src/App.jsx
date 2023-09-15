@@ -8,6 +8,7 @@ function App() {
 
   const [courses, setCourses] = useState([]);
   const [added, setAdded] = useState([]);
+  const [credit, setCredit] = useState(0)
 
   useEffect(() =>{
     fetch('../public/courses.json')
@@ -15,9 +16,11 @@ function App() {
     .then(data => setCourses(data))
   }, [])
 
-const handleAdded = courseTitle => {
+const handleAdded = (courseTitle, creditHour) => {
     const newAdded = [...added, courseTitle];
+    const newCredit = credit + creditHour;
     setAdded(newAdded);
+    setCredit(newCredit);
 }
 
   return (
@@ -26,7 +29,7 @@ const handleAdded = courseTitle => {
     <Header></Header>
     <div className='md:flex'>
       <Courses courses={courses} handleAdded={handleAdded}></Courses>
-      <Cart added={added}></Cart>
+      <Cart added={added} credit={credit}></Cart>
     </div>
     </div>
     </>
