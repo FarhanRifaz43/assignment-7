@@ -26,15 +26,21 @@ function App() {
 
 
   const handleAdded = (courseTitle, creditHour) => {
-    const newAdded = [...added, courseTitle];
-    const newCredit = credit + creditHour;
-    if (newCredit <= 20) {
-      setAdded(newAdded);
-      setCredit(newCredit);
-    }
-    else {
-      alert('Not enough credits!')
-    }
+    if (!added.includes(courseTitle)) {
+      const newAdded = [...added, courseTitle];
+      const newCredit = credit + creditHour;
+      if (newCredit <= 20) {
+        setAdded(newAdded);
+        setCredit(newCredit);
+      }
+      else {
+        alert('Not enough credits!')
+      }
+   }
+   else{
+    alert('The course is already added')
+   }
+
   }
 
 
