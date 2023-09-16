@@ -1,8 +1,9 @@
-# React + Vite
+Add at least 3 Project features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. You can select courses and add to cart
+2. Your total credit is calculated in the cart
+3. the cart data is stored in local storage so you can retain your data
 
-Currently, two official plugins are available:
+Discuss how you managed the state in your assignment project.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+at first I created states using useState function in App.jsx file. then I used prop drilling method to pass the props into other components and used the handler functions to update or change the state properties.
