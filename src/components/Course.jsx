@@ -4,9 +4,9 @@ import { BiDollar, BiBookOpen } from 'react-icons/Bi';
 const Course = ({ course, handleAdded }) => {
     const { image, course_title, credit_hours, price, course_description } = course;
     return (
-            <div className='bg-white rounded-xl w-80'>
+            <div className='bg-white rounded-xl max-w-xs drop-shadow-xl'>
                 <div>
-                    <img className='w-fit mx-auto my-3' src={image} alt="" />
+                    <img className='w-fit mx-auto my-3 px-2' src={image} alt="" />
                     <h1 className='text-center font-semibold h-12'>{course_title}</h1>
                     <p className='text-center text-sm mx-3 h-16'>{course_description}</p>
                 </div>

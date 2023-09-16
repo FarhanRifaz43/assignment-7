@@ -10,8 +10,8 @@ const Cart = ({added, credit}) => {
     }
 
     return (
-        <div className="md:w-1/4">
-            <div className="bg-white w-80 rounded-xl mt-10 px-4 h-96">
+        <div className="lg:w-1/4">
+            <div className="bg-white max-w-xs rounded-xl mt-10 px-4 max-h-lg drop-shadow-xl mx-auto lg:mx-0">
                 <h1 className="py-4 font-semibold text-blue-500 text-sm">Credit Hour Remaining: {remainingHour} hr</h1>
                 <hr />
                 <h1 className="py-3 font-bold text-lg">Course Name</h1>

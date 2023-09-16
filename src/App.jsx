@@ -48,7 +48,7 @@ function App() {
     <>
       <div className='body'>
         <Header></Header>
-        <div className='md:flex'>
+        <div className='lg:flex gap-2'>
           <Courses courses={courses} handleAdded={handleAdded}></Courses>
           <Cart added={added} credit={credit}></Cart>
         </div>
